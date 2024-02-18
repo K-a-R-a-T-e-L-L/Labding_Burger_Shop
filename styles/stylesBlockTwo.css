@@ -1,0 +1,46 @@
+.main_container_block_two {
+    background: url(../images/whybg.png) no-repeat;
+    background-position: top center;
+    overflow: hidden;
+    padding-bottom: 191px;
+}
+
+
+.container__title_h2 {
+    font-family: 'Merriweather', sans-serif;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 80px;
+    letter-spacing: 3%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.container__box_items {
+    margin-top: 71px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.box_items__item {
+    max-width: 312px;
+    max-height: 287px;
+    display: grid;
+    place-items: center;
+    row-gap: 24px;
+}
+
+
+.item__title_h3 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.item__text_p{
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+}

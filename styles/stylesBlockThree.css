@@ -1,0 +1,75 @@
+.main_container_block_three {
+    padding-bottom: 180px;
+    background: url(../images/burgers_bg.png) no-repeat;
+    background-position: center top;
+    overflow: hidden;
+}
+
+.container__box_cards {
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(3, 384px);
+    grid-template-rows: repeat(2, 564px);
+    gap: 24px;
+}
+
+.box_cards__card {
+    padding: 30px;
+    box-sizing: border-box;
+    border: 1px solid rgb(53, 53, 53);
+    border-radius: 16px;
+    background: rgb(33, 26, 22);
+    display: grid;
+    place-items: center;
+}
+
+.box{
+    display: grid;
+    row-gap: 24px;
+}
+
+.card__title_h3 {
+    font-size: 24px;
+}
+
+.card__p{
+    font-size: 16px;
+    width: 302px;
+    height: 88px;
+}
+
+.card__box_order{
+    display: flex;
+    justify-content: space-between;
+}
+
+.box_order__title_h4{
+    font-size: 39px;
+    margin-right: 4px;
+    margin-bottom: 8px;
+}
+
+.box_order__title_h5{
+    font-size: 16px;
+    opacity: 0.6;
+    font-weight: 100;
+}
+
+.box_order__button_order{
+    width: 182px;
+    height: 62px;
+    border-radius: 8px;
+    border: 0;
+    padding: 19px 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135.00deg, rgb(218, 128, 35) 0%,rgb(226, 180, 56) 100%);
+}
+
+.box_order__button_order span{
+    font-size: 18px;
+    margin-right: 11px;
+    font-weight: 600;
+}
