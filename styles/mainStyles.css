@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -14,8 +14,25 @@
     src: url("../fonts/Merriweather-Black.ttf");
 }
 
-body{
+body {
     background-color: #191411;
     font-family: 'Gilroy', sans-serif;
     color: white;
+}
+
+*::-webkit-scrollbar {
+    width: 0.5vw;
+    height: 0.5vw;
+    cursor: pointer;
+}
+
+*::-webkit-scrollbar-track {
+    background-color: rgb(0, 84, 84);
+    border: 0.1vw solid black;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: rgb(0, 255, 225);
+    border-radius: 1vw;
+    border: 0.15vw solid rgb(0, 0, 0);
 }

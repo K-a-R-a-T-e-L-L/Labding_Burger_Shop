@@ -22,7 +22,7 @@
     background: linear-gradient(96deg, #ac6115 0%, #9e7a19 100%);
 }
 
-.main__container{
+.main_container{
     background: url(../images/main_bg.png);
     background-position: top center;
     overflow: hidden;
@@ -79,12 +79,12 @@
     user-select: none;
 }
 
-.main__container__main{
+.main_container__main{
     padding-top: 103px;
     padding-bottom: 199px;
 }
 
-.main__container{
+.main__main_container{
     position: relative;
 }
 
