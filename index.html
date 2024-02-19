@@ -26,17 +26,17 @@
                 <nav class="container__menu">
                     <ul class="menu__link_list">
                         <li class="link_list__item_list">
-                            <a href="#">Почему у нас</a>
+                            <a data-link="why">Почему у нас</a>
                         </li>
                         <li class="link_list__item_list">
-                            <a href="#">Меню бургеров</a>
+                            <a data-link="products">Меню бургеров</a>
                         </li>
                         <li class="link_list__item_list">
-                            <a href="#">Оформление заказа</a>
+                            <a data-link="order">Оформление заказа</a>
                         </li>
                     </ul>
                 </nav>
-                <div class="container__currency" title="Изменить валюту">$</div>
+                <div class="container__currency" title="Изменить валюту" id="currency">$</div>
             </div>
         </header>
 
@@ -52,14 +52,14 @@
                         мраморной говядины
                     </p>
                     <div class="main_info__button_box">
-                        <button class="button_box__button button">Смотреть меню</button>
+                        <button class="button_box__button button" id="main-action-button">Смотреть меню</button>
                     </div>
                 </div>
                 <img src="./images/main_burger.png" alt="Burger" class="container__img_burger">
             </div>
         </div>
     </section>
-    <section class="main_container_block_two">
+    <section class="main_container_block_two" id="why">
         <div class="main_container_block_two__container container">
             <h2 class="container__title_h2">Почему нас выбирают?</h2>
             <div class="container__box_items">
@@ -96,7 +96,7 @@
             </div>
         </div>
     </section>
-    <section class="main_container_block_three">
+    <section class="main_container_block_three" id="products">
         <div class="main_container_block_three__container container">
             <h2 class="container__title_h2">выберите свой бургер</h2>
             <div class="container__box_cards">
@@ -111,7 +111,7 @@
                         </p>
                         <div class="card__box_order">
                             <div class="box_titles">
-                                <h4 class="box_order__title_h4">8 $</h4>
+                                <h4 class="box_order__title_h4" data-base-price="8">8 $</h4>
                                 <h5 class="box_order__title_h5">360 гр</h5>
                             </div>
                             <button class="button box_order__button_order">
@@ -132,7 +132,7 @@
                         </p>
                         <div class="card__box_order">
                             <div class="box_titles">
-                                <h4 class="box_order__title_h4">7 $</h4>
+                                <h4 class="box_order__title_h4" data-base-price="7">7 $</h4>
                                 <h5 class="box_order__title_h5">390 гр</h5>
                             </div>
                             <button class="button box_order__button_order">
@@ -153,7 +153,7 @@
                         </p>
                         <div class="card__box_order">
                             <div class="box_titles">
-                                <h4 class="box_order__title_h4">10 $</h4>
+                                <h4 class="box_order__title_h4" data-base-price="10">10 $</h4>
                                 <h5 class="box_order__title_h5">420 гр</h5>
                             </div>
                             <button class="button box_order__button_order">
@@ -174,7 +174,7 @@
                         </p>
                         <div class="card__box_order">
                             <div class="box_titles">
-                                <h4 class="box_order__title_h4">7 $</h4>
+                                <h4 class="box_order__title_h4" data-base-price="7">7 $</h4>
                                 <h5 class="box_order__title_h5">220 гр</h5>
                             </div>
                             <button class="button box_order__button_order">
@@ -195,7 +195,7 @@
                         </p>
                         <div class="card__box_order">
                             <div class="box_titles">
-                                <h4 class="box_order__title_h4">8 $</h4>
+                                <h4 class="box_order__title_h4" data-base-price="8">8 $</h4>
                                 <h5 class="box_order__title_h5">220 гр</h5>
                             </div>
                             <button class="button box_order__button_order">
@@ -216,7 +216,7 @@
                         </p>
                         <div class="card__box_order">
                             <div class="box_titles">
-                                <h4 class="box_order__title_h4">9 $</h4>
+                                <h4 class="box_order__title_h4" data-base-price="9">9 $</h4>
                                 <h5 class="box_order__title_h5">320 гр</h5>
                             </div>
                             <button class="button box_order__button_order">
@@ -237,7 +237,7 @@
                         </p>
                         <div class="card__box_order">
                             <div class="box_titles">
-                                <h4 class="box_order__title_h4">8 $</h4>
+                                <h4 class="box_order__title_h4" data-base-price="8">8 $</h4>
                                 <h5 class="box_order__title_h5">280 гр</h5>
                             </div>
                             <button class="button box_order__button_order">
@@ -258,7 +258,7 @@
                         </p>
                         <div class="card__box_order">
                             <div class="box_titles">
-                                <h4 class="box_order__title_h4">7 $</h4>
+                                <h4 class="box_order__title_h4" data-base-price="7">7 $</h4>
                                 <h5 class="box_order__title_h5">380 гр</h5>
                             </div>
                             <button class="button box_order__button_order">
@@ -279,7 +279,7 @@
                         </p>
                         <div class="card__box_order">
                             <div class="box_titles">
-                                <h4 class="box_order__title_h4">11 $</h4>
+                                <h4 class="box_order__title_h4" data-base-price="11">11 $</h4>
                                 <h5 class="box_order__title_h5">400 гр</h5>
                             </div>
                             <button class="button box_order__button_order">
@@ -300,7 +300,7 @@
                         </p>
                         <div class="card__box_order">
                             <div class="box_titles">
-                                <h4 class="box_order__title_h4">9 $</h4>
+                                <h4 class="box_order__title_h4" data-base-price="9">9 $</h4>
                                 <h5 class="box_order__title_h5">300 гр</h5>
                             </div>
                             <button class="button box_order__button_order">
@@ -321,7 +321,7 @@
                         </p>
                         <div class="card__box_order">
                             <div class="box_titles">
-                                <h4 class="box_order__title_h4">8 $</h4>
+                                <h4 class="box_order__title_h4" data-base-price="8">8 $</h4>
                                 <h5 class="box_order__title_h5">320 гр</h5>
                             </div>
                             <button class="button box_order__button_order">
@@ -342,7 +342,7 @@
                         </p>
                         <div class="card__box_order">
                             <div class="box_titles">
-                                <h4 class="box_order__title_h4">9 $</h4>
+                                <h4 class="box_order__title_h4" data-base-price="9">9 $</h4>
                                 <h5 class="box_order__title_h5">360 гр</h5>
                             </div>
                             <button class="button box_order__button_order">
@@ -355,7 +355,7 @@
             </div>
         </div>
     </section>
-    <section class="main_container_block_four">
+    <section class="main_container_block_four" id="order">
         <div class="main_container_block_four_container container">
             <h2 class="container__title_h2">оформление заказа</h2>
             <img class="image_box" src="./images/order_image.png" alt="Background">
@@ -365,15 +365,15 @@
                     свяжется с вами для подтверждения заказа
                 </h3>
                 <div class="box_input">
-                    <input class="form__input" type="text" placeholder="Ваш заказ">
+                    <input class="form__input" type="text" placeholder="Ваш заказ" id="burger">
                 </div>
                 <div class="box_input">
-                    <input class="form__input" type="text" placeholder="Ваше имя">
+                    <input class="form__input" type="text" placeholder="Ваше имя" id="name">
                 </div>
                 <div class="box_input">
-                    <input class="form__input" type="text" placeholder="Ваш телефон">
+                    <input class="form__input" type="text" placeholder="Ваш телефон" id="phone">
                 </div>
-                <button class="form__button button">Оформить заказ</button>
+                <button class="form__button button" id="order-button">Оформить заказ</button>
             </form>
         </div>
     </section>
@@ -386,7 +386,7 @@
         </footer>
     </section>
 
-
+<script src="./scripts/scripts.js"></script>
 </body>
 
 </html>
